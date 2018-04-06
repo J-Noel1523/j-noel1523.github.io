@@ -1,0 +1,312 @@
+*{
+ //border:1px solid black;
+	 margin:0;
+	 padding:0;
+
+   }
+ 
+	 html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+
+ body{
+  height: 100%;
+   width:100%;
+        
+  } 
+html{
+     max-width:100%;
+}
+
+ 
+*, *:before, *:after  {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  
+  }
+
+
+body {
+min-height: 100%;
+    position: relative;
+  //min-width: 950px;
+ }
+
+
+body {
+  background-color: #000F71;
+  }
+
+
+
+header{
+         border-top:2px solid orange;
+
+ 	 background-color:#343434;
+   width: 100%;
+   top: 0;
+   position: fixed;
+	 height:75px;
+   z-index:999999999;
+	 box-shadow:0px 0.1px 10px #333;
+   min-width:815px;
+  	 
+ }
+
+header .nav-menu li:hover{
+  
+  
+}
+header .nav-menu li:hover a{
+   color:white;
+  
+}
+
+ 
+
+		.nav-menu{
+			width:600px;
+            margin-left:70%;
+            text-align:center;
+			           margin-top:60px;
+
+			transform:translateY(-50%);
+      color:white;	 
+}
+#homeButton{//background-color:#FFB535;}
+		
+.nav-menu ul li a{
+			color:white;
+  		}
+
+.nav-menu ul li{
+   padding-top:24px;
+    padding-bottom:25px;
+
+}
+  
+		  li{
+ 			padding:1px;
+			margin:5px;
+           
+			font-size:1.3em;
+			display:inline;
+		//	font-family: 'Concert One', cursive;
+ 		}
+
+a{
+  			 text-decoration:none;
+				 color:black;
+  
+}
+ 
+ a:hover {
+	// color:white;
+	 //background-color:white;
+ }
+ 
+#site-name{
+  color:white;
+}
+
+ 
+header li:hover {
+    cursor: pointer;
+}
+ 
+ 
+img {
+  margin-top: 38px;
+  width: 100%;
+  position: absolute;
+}
+iframe{
+  margin-top: 1000px;
+}
+ 
+
+
+  footer{
+   top:100%;
+   background-color: #262626;
+   width: 100%;
+   bottom: 0;
+   position: absolute;
+	 height:350px;
+	 color:white;
+ 	 transform:translateY(100%);
+   clear:both;
+    }
+  #copyright{
+  top:100%;
+  bottom:0;
+   width:100%;
+  height:20%;
+  background-color:#191919;
+    position:absolute;
+ }
+
+
+@media screen and (min-width: 3500px) {
+   html{
+margin-left:50%;          
+			transform:translateX(-50%);
+  		}
+  .nav-menu{
+    margin-left:58%;
+  }
+}
+
+@media screen and (min-width: 2400px) {
+    
+  .nav-menu{
+    margin-left:79%;
+  }
+}
+
+@media screen and (min-width: 2600px) {
+   
+  .nav-menu{
+    margin-left:60%;
+  }
+}
+
+
+
+
+@media screen and (max-width: 1900px) {
+   .nav-menu{
+             margin-left:66%;
+          
+			
+  		}
+}
+
+
+@media screen and (max-width: 1660px) {
+   .nav-menu{
+             margin-left:62%;
+          
+			
+  		}
+}
+
+
+@media screen and (width: 1600px) {
+   .nav-menu{
+             margin-left:68%;
+          
+			
+  		}
+}
+
+
+@media screen and (max-width: 1485px) {
+   .nav-menu{
+             margin-left:58%;
+          
+			
+  		}
+}
+
+@media screen and (max-width: 1375px) {
+   .nav-menu{
+             margin-left:60%;
+          
+			
+  		}
+}
+
+@media screen and (max-width: 1285px) {
+   .nav-menu{
+             margin-left:58%;
+          
+			
+  		}
+}
+
+@media screen and (max-width: 1245px) {
+   .nav-menu{
+             margin-left:50%;
+          
+			
+  		}
+}
+
+@media screen and (max-width: 1135px) {
+   .nav-menu{
+             margin-left:46%;
+          
+			
+  		}
+}
+
+@media screen and (max-width: 1100px) {
+   .nav-menu{
+           
+			
+  		}
+}
+
+
+
+.top {
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  border: 0.5em solid darkorange;
+  border-radius: 50%;
+  margin-left:-10%;
+margin-bottom:10%;
+ }
+
+.top:after {
+  content: '';
+	display: inline-block;
+  margin-top: 1.2em;
+  width: 1.4em;
+  height: 1.4em;
+  border-top: 0.5em solid darkorange;
+  border-right: 0.5em solid darkorange;
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  margin-left:13px;
+}
+      
+      #up {
+  display: inline-block;
+  vertical-align: middle;
+ position:fixed;
+        right:0; bottom:0;
+        z-index:99999;
+   }
+ 
+.top:hover {
+  border: 0.5em solid orange;
+
+  
+}
+
+.top:after:hover {
+border-top: 0.5em solid orange;
+  border-right: 0.5em solid orange;
+  
+}
+
+
+header li:hover {
+    cursor: pointer;
+}
+
+
+
+
+ 
+li:hover{
+  background-color:orange;
+  
+}

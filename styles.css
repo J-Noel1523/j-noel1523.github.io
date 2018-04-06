@@ -1,0 +1,542 @@
+ *{
+ //border:1px solid black;
+	 margin:0;
+	 padding:0;
+ 
+   }
+ 
+	 html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+ 
+  }
+
+ body{
+  height: 100%;
+   width:100%;
+   } 
+
+ 
+*, *:before, *:after  {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  
+  }
+ 
+#learnPianoBtn:hover{
+   
+  box-shadow:0px 3px 5px #333;
+cursor:pointer;
+}
+
+
+#learnSheetBtn:hover{
+   
+  box-shadow:0px 3px 5px #333;
+cursor:pointer;
+}
+
+#readMore, #readMore2, #readMore3:hover{
+   cursor:pointer;
+}
+
+
+#learnClarinetBtn:hover{
+   
+  box-shadow:0px 3px 5px #333;
+cursor:pointer;
+}
+
+body {
+//min-height: 100%;
+    position: relative;
+  //min-width: 950px;
+ }
+
+#mainText{font-size:30px;}
+
+header
+{
+         border-top:2px solid orange;
+
+ 	 background-color:#343434;
+   width: 100%;
+   top: 0;
+   position: fixed;
+	 height:75px;
+   z-index:999999999;
+	 box-shadow:0px 0.1px 10px #333;
+   min-width:815px;
+  	 
+ }
+
+header .nav-menu li:hover{
+  
+  
+}
+header .nav-menu li:hover a{
+   color:white;
+  
+}
+
+ 
+
+		.nav-menu{
+			width:600px;
+            margin-left:70%;
+            text-align:center;
+			            margin-top:-31px;
+
+			//transform:translateY(-50%);
+      color:white;
+			 
+ 
+}
+#homeButton{//background-color:#FFB535;}
+		
+.nav-menu ul li a{
+			color:white;
+  		}
+
+.nav-menu ul li{
+   padding-top:24px;
+    padding-bottom:25px;
+
+}
+  
+		  li{
+ 			padding:1px;
+			margin:5px;
+           
+			font-size:1.3em;
+			display:inline;
+		//	font-family: 'Concert One', cursive;
+ 		}
+
+a{
+  			 text-decoration:none;
+				 color:black;
+  
+}
+
+#cards{ height:600px;}
+ 
+ a:hover {
+	// color:white;
+	 //background-color:white;
+ }
+ 
+#site-name{
+  color:white;
+}
+
+ header li:hover {
+    cursor: pointer;
+}
+
+#moveUp{
+margin-top:-350px;
+}
+
+#adayaBox{
+   margin:5px auto; 
+  margin-top:-605px;
+
+    }
+.slider {
+  width: 100%;
+  height:50%;
+  height: 550px;
+  margin: 20px auto;
+  position: relative;
+ }
+.slide1,.slide2,.slide3,.slide4,.slide5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+ 
+}
+.slide1 {
+  background: url("https://www.wimbledonsound.com/wp-content/uploads/2013/08/SliderImage-Piano.jpg")no-repeat center;
+      background-size: cover;
+    animation:fade 15s infinite;
+-webkit-animation:fade 15s infinite;
+   // background-attachment: fixed;
+
+} 
+.slide2 {
+  background: url("https://i2.wp.com/thewire.in/wp-content/uploads/2017/05/sheet-music_Flickr.jpg?resize=1024%2C682&ssl=1")no-repeat center;
+      background-size: cover;
+    animation:fade2 15s infinite;
+-webkit-animation:fade2 15s infinite;
+   //   background-attachment: fixed;
+
+}
+.slide3 {
+    background: url("https://blogs.canterbury.ac.uk/mpa/wp-content/uploads/sites/489/2017/11/pexels-photo-164821.jpeg")no-repeat center;
+      background-size: cover;
+    animation:fade3 15s infinite;
+-webkit-animation:fade3 15s infinite;
+      background-attachment: fixed;
+
+}
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
+
+
+@media screen and (min-width: 3500px) {
+   html{
+margin-left:50%;          
+			transform:translateX(-50%);
+  		}
+  .nav-menu{
+    margin-left:58%;
+  }
+}
+
+@media screen and (min-width: 2400px) {
+    
+  .nav-menu{
+    margin-left:79%;
+  }
+}
+
+@media screen and (min-width: 2600px) {
+   
+  .nav-menu{
+    margin-left:60%;
+  }
+}
+
+
+
+
+@media screen and (max-width: 1900px) {
+   .nav-menu{
+             margin-left:66%;
+          
+			
+  		}
+}
+
+
+@media screen and (max-width: 1660px) {
+   .nav-menu{
+             margin-left:62%;
+          
+			
+  		}
+}
+
+
+@media screen and (width: 1600px) {
+   .nav-menu{
+             margin-left:68%;
+          
+			
+  		}
+}
+
+
+@media screen and (max-width: 1485px) {
+   .nav-menu{
+             margin-left:58%;
+          
+			
+  		}
+}
+
+@media screen and (max-width: 1375px) {
+   .nav-menu{
+             margin-left:60%;
+          
+			
+  		}
+}
+
+@media screen and (max-width: 1285px) {
+   .nav-menu{
+             margin-left:58%;
+          
+			
+  		}
+}
+
+@media screen and (max-width: 1245px) {
+   .nav-menu{
+             margin-left:50%;
+          
+			
+  		}
+  
+   
+}
+
+@media screen and (max-width: 1235px) {
+   
+  
+  #adayaBox{
+margin-top:620px;
+     position:absolute;
+    }
+  
+  #oliviaBox{
+    float:right;
+ }
+  
+  
+  #cards{
+    height:700px;
+  }
+}
+
+
+
+@media screen and (max-width: 820px) {
+   
+
+  #adayaBox{
+     margin-top:1250px;
+    float:left;
+ }
+  #oliviaBox{
+    float:left;
+ }
+  #cards{
+    height:2000px;
+  }
+}
+
+
+
+@media screen and (max-width: 1135px) {
+   .nav-menu{
+             margin-left:46%;
+          
+			
+  		}
+  
+   #moveUp{
+          
+     margin-top:-500px;
+          
+			
+  		}
+  
+  
+
+#mainText{font-size:25px;}
+
+}
+
+
+
+@media screen and (max-width: 758px) {
+   
+  
+
+#mainText{font-size:20px;}
+
+}
+
+
+@media screen and (max-width: 520px) {
+   
+  
+
+#mainText{font-size:17px;}
+
+}
+
+
+@media screen and (max-width: 410px) {
+   
+  
+
+#mainText{font-size:15px;}
+
+}
+
+@media screen and (max-width: 319px) {
+   
+  
+
+#mainText{font-size:12px;}
+
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+ 
+   #moveUp{
+          
+      width:80%;
+          
+			
+  		}
+
+}
+@media screen and (max-width: 1100px) {
+   .nav-menu{
+           
+			
+  		}
+}
+
+// CUT OFF AT 1100 
+
+
+
+
+
+
+
+
+
+li:not(:last-child) { 
+    border-right:solid 23px #fff;/* This will not give border to last li element */
+  }
+
+li:hover{
+  background-color:orange;
+  
+}
+#buttons{
+  text-align:center;
+}
+
+.btn{
+  display:inline-block;
+  margin:20px;
+  padding:20px;
+  
+}
+
+
+.btn{
+  background: #3498db;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size:50px;
+  padding: 0px 20px 10px 20px;
+  text-decoration: none;
+  }
+
+.btn:hover {
+  background: #3cb0fd;
+  
+  text-decoration: none;
+}
+
+ footer{
+   top:100%;
+            background-color: #262626;
+            width: 100%;
+             bottom: 0;
+            //position: absolute;
+			height:450px;
+			color:white;
+ 		   transform:translateY(100%);
+   clear:both;
+    
+    }
+  #copyright{
+  top:100%;
+  bottom:0;
+   width:100%;
+  height:20%;
+  background-color:#191919;
+    background-color: black;
+    position:absolute;
+ }
+
+#readingMusic{
+  background: url("https://0.soompi.io/wp-content/uploads/2016/02/19063032/idols-cant-read-sheet-music.jpg") no-repeat;
+  background-size:cover;
+     background-attachment: fixed;
+
+}
+
+#pianoMusic{
+  background: url("https://www.wimbledonsound.com/wp-content/uploads/2013/08/SliderImage-Piano.jpg") no-repeat;
+  background-size:cover;
+     background-attachment: fixed;
+
+}
+
+
+#clarinetMusic{
+  background: url("https://static.pexels.com/photos/210770/pexels-photo-210770.jpeg") no-repeat;
+  background-size:cover;
+     background-attachment: fixed;
+
+}
+
+ 
+      
+.top {
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  border: 0.5em solid darkorange;
+  border-radius: 50%;
+  margin-left:-10%;
+margin-bottom:10%;
+ }
+
+.top:after {
+  content: '';
+	display: inline-block;
+  margin-top: 1.2em;
+  width: 1.4em;
+  height: 1.4em;
+  border-top: 0.5em solid darkorange;
+  border-right: 0.5em solid darkorange;
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  margin-left:13px;
+}
+      
+      #up {
+  display: inline-block;
+  vertical-align: middle;
+ position:fixed;
+        right:0; bottom:0;
+        z-index:99999;
+   }
+ 
+.top:hover {
+  border: 0.5em solid orange;
+
+  
+}
+
+.top:after:hover {
+border-top: 0.5em solid orange;
+  border-right: 0.5em solid orange;
+  
+}
