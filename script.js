@@ -112,7 +112,7 @@ $("#learnClarinetBtn").click(function(){
   
   if(window.location.href.indexOf("clarinet") > -1){
     
-   window.location.href = "inedex.html";
+   window.location.href = "index.html";
     
   } 
     if(window.location.href.indexOf("index") > -1){
