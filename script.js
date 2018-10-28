@@ -110,7 +110,11 @@ $("#learnClarinetBtn").click(function(){
     
   }
   
-  
+  if(window.location.href.indexOf("clarinet") > -1){
+    
+   window.location.href = "inedex.html";
+    
+  } 
     if(window.location.href.indexOf("index") > -1){
  $("a").parent().eq(0).css({borderBottom:"0.1px solid orange"});
   }else if(window.location.href.indexOf("clarinet") > -1){
